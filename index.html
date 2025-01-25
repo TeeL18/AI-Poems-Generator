@@ -7,35 +7,39 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator!🤖</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator!🤖</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter topic of poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>The poem will go here</div>
-    </main>
-    <footer>
-      This AI page was coded by
-      <a href="https://github.com/TeeL18" target="_blank">Tee Acheam</a>
-      and is an open-source on
-      <a href="https://github.com/TeeL18/AI-Poems-Generator" target="_blank"
-        >Github</a
-      >
-      and is hosted on
-      <a href="https://tees-ai-poem-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter topic of poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">The poem will go here</div>
+      </main>
+
+      <footer>
+        This AI page was coded by
+        <a href="https://github.com/TeeL18" target="_blank">Tee Acheam</a>
+        and is an open-source on
+        <a href="https://github.com/TeeL18/AI-Poems-Generator" target="_blank"
+          >Github</a
+        >
+        and is hosted on
+        <a href="https://tees-ai-poem-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
